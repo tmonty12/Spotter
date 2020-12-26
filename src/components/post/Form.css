@@ -1,0 +1,14 @@
+.form-card {
+  margin: 5%;
+}
+
+.form-card h5 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1024px) {
+  .form-card {
+    width: 920px;
+    margin: 5% auto;
+  }
+}

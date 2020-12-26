@@ -1,0 +1,23 @@
+.logger {
+  width: 75%;
+  margin: auto !important;
+  padding: 50px 0 !important;
+}
+
+.react-calendar {
+  margin: auto;
+}
+
+.workout-log-card {
+  text-align: center;
+  width: 100% !important;
+}
+
+.create-workoutlog-btn {
+  margin: 30px 0 10px !important;
+}
+
+.workoutlog-date {
+  font-weight: 100;
+  font-size: 14px;
+}

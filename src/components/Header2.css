@@ -1,0 +1,30 @@
+#blueprint-menu {
+  left: revert !important;
+}
+
+@media only screen and (min-width: 576px) {
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .nav-link {
+    margin: 0px 15px;
+  }
+}
+
+.header-user-icon {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+i.header-user-icon {
+  font-size: 50px;
+}
+
+.nav-link.dropdown-toggle {
+  display: flex;
+  align-items: center;
+}

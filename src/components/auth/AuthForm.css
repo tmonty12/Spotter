@@ -1,0 +1,14 @@
+#sign-up-message {
+  text-align: center;
+  margin: 1rem 0 0 0;
+  font-size: 12px;
+}
+
+.auth-card {
+  width: 350px;
+  margin: 5% auto;
+}
+
+.auth-title {
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.about-page {
+  margin: 5% 5% 0;
+}
+
+.about-page img,
+.about-page video {
+  max-width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 576px) {
+  .about-page {
+    margin: 5% auto 0;
+    max-width: 517.5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-page {
+    margin: 5% 5% 0;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1125px) {
+  .about-page {
+    margin: 5% auto 0;
+    max-width: 1000px;
+  }
+}

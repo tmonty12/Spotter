@@ -1,0 +1,30 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "emulators": {
+    "hosting": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": false
+    }
+  },
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/foo{,/**}",
+      "destination": "/index.html"
+    },
+    {
+      "source": "!/@(js|css)/**",
+      "destination": "/index.html"
+    }
+  ],
+  "hosting": {
+    "public": "build"
+  }
+}

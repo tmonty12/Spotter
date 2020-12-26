@@ -1,0 +1,22 @@
+.social-title-card {
+  width: 300px;
+  margin: 5% auto 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.profile-card-grid.social {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 680px) {
+  .social-title-card {
+    width: 620px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .social-title-card {
+    width: 960px;
+  }
+}

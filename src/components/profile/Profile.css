@@ -1,0 +1,114 @@
+.profile-card {
+  margin: 5% 5% 0;
+}
+
+.profile-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.profile-element,
+.profile-stats {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.profile-stats,
+.profile-stats a {
+  font-weight: 500;
+}
+
+.profile-img-container {
+  text-align: center;
+}
+
+.profile-img-container img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.fa-user-circle.profile-pic {
+  font-size: 200px;
+}
+
+.profile-stats a,
+.profile-element a {
+  color: black;
+}
+
+.profile-stats a:hover,
+.profile-element a:hover {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.total-dropdown div:hover {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.social-icon {
+  font-size: 40px;
+  margin: 0 5px;
+}
+
+.button-row {
+  margin-bottom: 10px;
+}
+
+.stats-row {
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.stats-row > div {
+  margin: 20px 10px 0;
+}
+
+#profile-description {
+  align-self: center;
+}
+
+#profile-username {
+  font-style: oblique;
+}
+
+.icon-posts-container {
+  display: block !important;
+  margin-top: 5% !important;
+}
+
+.icon-posts-container > h4 {
+  text-align: center;
+}
+
+.icon-posts-container > i {
+  font-size: 100px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 576px) {
+  .profile-card {
+    margin: 5% auto 0;
+    max-width: 517.5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profile-card {
+    margin: 5% 5% 0;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1125px) {
+  .profile-card {
+    margin: 5% auto 0;
+    max-width: 1000px;
+  }
+}

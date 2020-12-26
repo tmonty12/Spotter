@@ -1,0 +1,66 @@
+.create-log-card {
+  width: 50% !important;
+  margin: auto;
+}
+
+.create-log-title {
+  text-align: center;
+}
+
+.create-log-set {
+  display: flex;
+  align-items: center;
+}
+
+.create-log-set h4 {
+  margin: 0 !important;
+  width: 10%;
+  text-align: center;
+  min-width: fit-content;
+}
+
+.create-log-set div {
+  margin: 0 5% !important;
+  width: 40%;
+}
+
+.exercise-container,
+.set-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exercise-container div {
+  width: 95%;
+}
+
+.exercise-container i,
+.set-container i {
+  color: red;
+  cursor: pointer;
+}
+
+.set-container div {
+  width: 42.5%;
+}
+
+.add-exercise-button,
+.add-set-button {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.add-set-button {
+  margin-left: 5%;
+}
+
+.add-set-button:hover,
+.add-exercise-button:hover {
+  color: #4183c4;
+  border-bottom: 1px solid #4183c4;
+  background-color: #d3d3d3;
+}

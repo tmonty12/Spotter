@@ -1,0 +1,157 @@
+.post-detail {
+  margin: 5% 5% 0;
+}
+
+.post-profile img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.post-profile i {
+  font-size: 50px;
+}
+
+.post-detail-visual {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
+.post-profile a:hover {
+  text-decoration: none;
+}
+
+.post-header {
+  align-items: center;
+}
+
+.post-profile a {
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.post-body {
+  text-align: center;
+}
+
+.post-body p {
+  margin-top: 1rem;
+}
+
+.post-body h5 {
+  margin-bottom: 1rem;
+}
+
+.post-body a:hover {
+  text-decoration: none;
+}
+
+.fas.fa-backspace {
+  font-size: 25px;
+  color: #dc3545;
+  margin-left: 10px;
+}
+
+.fas.fa-backspace:hover,
+.dropdown-item:hover {
+  cursor: pointer;
+}
+
+.fas.fa-heart {
+  font-size: 30px;
+  color: #858383;
+}
+
+.fas.fa-heart:hover {
+  color: #c24f4f;
+  cursor: pointer;
+}
+
+.fas.fa-ellipsis-v {
+  font-size: 20px;
+  color: black;
+}
+
+.fas.fa-ellipsis-v:after {
+  content: none;
+}
+
+.fas.fa-ellipsis-v:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.like-btn-container {
+  display: flex;
+  align-items: center;
+}
+
+.like-btn-container span {
+  margin-left: 5px;
+}
+
+.post-profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.comment form,
+.post-comment {
+  flex: 100%;
+  margin: 0 0 0 10px;
+}
+
+.post-comment {
+  background-color: white;
+  padding: 10px;
+  border-radius: 0.25rem;
+}
+
+.fas.fa-heart.post-liked {
+  color: #dc3545;
+}
+
+.timestamp.comment-timestamp {
+  margin-left: 10px !important;
+  text-align: center;
+}
+
+.edit-comments-btn {
+  margin-top: 20px;
+}
+
+.targeted-muscles-list {
+  margin: auto;
+  width: fit-content;
+  text-align: left;
+}
+
+@media only screen and (min-width: 576px) {
+  .post-detail {
+    margin: 5% auto 0;
+    max-width: 517.5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .post-detail {
+    margin: 5% 5% 0;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1125px) {
+  .post-detail {
+    margin: 5% auto 0;
+    max-width: 1000px;
+  }
+}

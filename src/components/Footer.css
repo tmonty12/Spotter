@@ -1,0 +1,17 @@
+.footer {
+  background-color: #2185d0;
+  color: white;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}

@@ -1,0 +1,66 @@
+{
+  "name": "lift-buddy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bit/mui-org.material-ui.slider": "^4.9.10",
+    "@bit/ricardo-ch.react-easy-crop.cropper": "^1.11.1",
+    "@emotion/core": "^10.1.1",
+    "@emotion/styled": "^10.0.7",
+    "@material-ui/core": "^4.11.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "cropperjs": "^1.5.9",
+    "ffmpeg": "0.0.4",
+    "firebase": "^7.18.0",
+    "firebaseui": "^4.5.1",
+    "fluent-ffmpeg": "^1.7.2",
+    "gh-pages": "^3.1.0",
+    "html5-media-converter": "0.0.2",
+    "react": "^16.13.1",
+    "react-calendar": "^3.1.0",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.1",
+    "react-form": "^4.0.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-widgets": "^4.5.0",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.6",
+    "redux-form-dropzone": "0.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start --env",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.2.0",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
+  }
+}
