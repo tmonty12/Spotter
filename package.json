@@ -2,6 +2,7 @@
   "name": "lift-buddy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tmonty12.github.io/Spotter/",
   "dependencies": {
     "@bit/mui-org.material-ui.slider": "^4.9.10",
     "@bit/ricardo-ch.react-easy-crop.cropper": "^1.11.1",
@@ -37,7 +38,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\""
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
